@@ -1,20 +1,10 @@
 import React, { Component } from 'react';
-import Test from "./Components/Test";
-import ErrorBoundary from "./Components/ErrorBoundary";
+import FRP from "./Components/FRP";
 
 function App() {
   return (
     <div>
-      <ErrorBoundary>
-        <Test heroName="Batman"/>
-      </ErrorBoundary>
-
-      <ErrorBoundary>
-        <Test heroName="Supperman"/>
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Test heroName="joker" />
-      </ErrorBoundary>  
+      <FRP />
     </div>
   );
 }
